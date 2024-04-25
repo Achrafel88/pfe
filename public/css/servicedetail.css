@@ -1,0 +1,247 @@
+
+
+    .detail h1{
+        color: #289DB9;
+    }
+    .detail p{
+        font-size:20px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+
+
+
+
+
+
+    body{margin-top:20px;}
+.blog-grid {
+    position: relative;
+    box-shadow: 0 1rem 1.75rem 0 rgba(45, 55, 75, 0.1);
+    height: 100%;
+    border: 0.0625rem solid rgba(220, 224, 229, 0.6);
+    border-radius: 0.25rem;
+    transition: all .2s ease-in-out;
+    height: 100%
+}
+
+.blog-grid span {
+    color: #292dc2
+}
+
+.blog-grid img {
+    width: 100%;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem
+}
+
+.blog-grid-text {
+    position: relative
+}
+
+.blog-grid-text>span {
+    color: #292dc2;
+    font-size: 13px;
+    padding-right: 5px
+}
+
+.blog-grid-text h4 {
+    line-height: normal;
+    margin-bottom: 15px
+}
+
+
+
+.blog-grid-text ul {
+    margin: 0;
+    padding: 0
+}
+
+.blog-grid-text ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 10px 5px 0
+}
+
+.blog-grid-text ul li:last-child {
+    margin-right: 0
+}
+
+.blog-grid-text ul li i {
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 5px
+}
+
+.blog-grid-text p {
+    font-weight: 400;
+    padding: 0
+}
+
+.blog-list-left-heading:after,
+.blog-title-box:after {
+    content: '';
+    height: 2px
+}
+
+.blog-grid-simple-content a:hover {
+    color: #1d184a
+}
+
+.blog-grid-simple-content a:hover:after {
+    color: #1d184a
+}
+.blog-grid-text {
+    position: relative
+}
+
+.blog-grid-text>span {
+    color: #292dc2;
+    font-size: 13px;
+    padding-right: 5px
+}
+
+.blog-grid-text h3 {
+    color: #212529;
+    line-height: normal;
+    margin-bottom: 15px
+}
+
+
+
+.blog-grid-text ul {
+    margin: 0;
+    padding: 0
+}
+
+.blog-grid-text ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 10px 5px 0
+}
+
+.blog-grid-text ul li:last-child {
+    margin-right: 0
+}
+
+.blog-grid-text ul li i {
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 5px
+}
+
+.blog-grid-text p {
+    font-weight: 400;
+    padding: 0
+}
+
+a, a:active, a:focus {
+    color: #575a7b;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+
+
+.mt-6, .my-6 {
+    margin-top: 3.5rem;
+}
+
+
+
+
+
+
+.gradient-section {
+    background: linear-gradient(-45deg, #6026ba 0%, #351567 35%, #212529);
+    background-size: 400% 400%;
+    animation: gradient 15s linear infinite;
+    padding: 70px 0;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.card.statistics-card {
+    position: relative;
+    background: none;
+    border: none;
+    padding: 2rem;
+}
+.card.statistics-card i {
+    position: absolute;
+    font-size: 10rem;
+    top: -3%;
+    opacity: 0.2;
+}
+@media only screen and (max-width: 921px) {
+    .card.statistics-card i {
+        font-size: 5rem;
+    }
+}
+
+.card.statistics-card .info {
+    margin-left: 20%;
+    text-align: right;
+}
+.card.statistics-card .info span {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.card.statistics-card .info div {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FF2E95;
+}
+.section-title {
+    padding-bottom: 40px;
+}
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+.section-title h2:after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #fff;
+    margin: 4px 10px;
+}
+.section-title h1,
+.section-title p {
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #3c1874;
+    font-size: 2rem;
+}
+

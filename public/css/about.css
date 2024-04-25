@@ -1,0 +1,31 @@
+.main{
+    height: 300px;
+}
+.maine{
+   margin-top: 6% !important;
+}
+#logo{
+    width: 270px;
+    height: 300px;
+}
+.maps{
+
+    background-color: #fff9da;
+    width: 100% !important;
+    height: 100%;
+
+    box-shadow: 3px 3px 6px rgba(41, 195, 252, 0.5) ;
+    border-radius: 30px;
+}
+.map{
+    width: 100% !important;
+    height: 300px;
+    border: 1px solid black;
+
+    border-radius: 20px;
+}
+
+.container h1{
+    color: #289DB9;
+}
+
